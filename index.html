@@ -67,6 +67,16 @@ h2 small{display:block;font-family:'Caveat',cursive;font-size:1.3rem;color:var(-
 footer{text-align:center;padding:30px 20px 40px;color:var(--muted);font-size:.8rem}
 @media(min-width:760px){.hero{grid-template-columns:1.1fr 1fr;align-items:center}.grid{grid-template-columns:1fr 1fr}.why{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:420px){nav ul{gap:10px;font-size:.78rem}}
+/* Policy sections and footer navigation */
+#contact,#terms,#refund{scroll-margin-top:76px}
+.policy{background:var(--bg2);border:1px solid #2c4a3a;border-radius:20px;padding:24px 20px;margin-top:18px}
+.policy p,.policy li{color:var(--muted);font-size:.92rem}
+.policy p+p{margin-top:14px}
+.policy ul{padding-left:20px;margin-top:14px}
+.policy li+li{margin-top:12px}
+.policy a{color:var(--mint);text-decoration:underline;text-underline-offset:3px}
+.footer-links{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 16px;margin-bottom:14px}
+.footer-links a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px}
 </style>
 </head>
 <body>
@@ -142,7 +152,7 @@ BIOTYRANT makes studying visual. Notes for NEET, UP Board and further studies - 
 <h3>More ROOT notes coming</h3>
 <p>More ROOT MAPs, anime explainers and notes for more subjects. Follow on Instagram so you don't miss a drop.</p>
 <div class="row"><span class="price">&nbsp;</span><!-- SWAP INSTAGRAM LINK -->
-<a class="btn g" href="https://instagram.com/YOUR-INSTAGRAM-HANDLE" target="_blank" rel="noopener">Get notified</a></div></div>
+<a class="btn g" href="https://www.instagram.com/bio.tyrant" target="_blank" rel="noopener">Get notified</a></div></div>
 </div>
 <p style="color:var(--muted);font-size:.8rem;margin-top:14px">&#128241; Pay by UPI on Instamojo. Your PDF is delivered automatically after payment.</p>
 </section>
@@ -158,13 +168,42 @@ BIOTYRANT makes studying visual. Notes for NEET, UP Board and further studies - 
 
 <section class="wrap" id="contact">
 <div class="contact">
-<h2><small>say hi</small>Stay connected</h2>
+<h2><small>say hi</small>Public Contact Details</h2>
 <p>Free samples, daily revision points and new drops on Instagram.</p>
+<p>For product questions or help with an order, DM us on Instagram. Include your order reference and describe the issue. Please do not send passwords or payment-card details.</p>
 <!-- SWAP INSTAGRAM LINK: put your real handle URL here -->
-<a class="btn p" href="https://instagram.com/YOUR-INSTAGRAM-HANDLE" target="_blank" rel="noopener">&#128247; Instagram @biotyrant</a>
+<a class="btn p" href="https://www.instagram.com/bio.tyrant" target="_blank" rel="noopener">DM us on Instagram @bio.tyrant</a>
 </div>
 </section>
 
-<footer>&copy; BIOTYRANT&trade; &middot; Made in India &middot; Made by Ansh Shukla</footer>
+<section class="wrap" id="terms" aria-labelledby="terms-heading">
+<h2 id="terms-heading"><small>before you buy</small>Terms and Conditions</h2>
+<div class="policy">
+<p>These terms apply to digital study notes purchased from BIOTYRANT.</p>
+<ul>
+<li><strong>Personal use:</strong> Your purchase gives you a non-exclusive, non-transferable licence to use the PDF for your own study. You may keep a copy and print it for personal use.</li>
+<li><strong>No redistribution:</strong> Do not share, upload, resell or distribute the PDFs, including copies or edited versions.</li>
+<li><strong>Study support:</strong> Our notes support preparation for NEET, UP Board and further study. They do not replace official syllabuses, textbooks or exam guidance, and do not guarantee marks or admission.</li>
+<li><strong>Prices and orders:</strong> Prices are in Indian Rupees (INR). Review the product description and final checkout amount before paying. Delivery details are shown on the product or checkout page.</li>
+<li><strong>Refunds:</strong> Please read the <a href="#refund">Refund and Cancellation Policy</a> before buying.</li>
+<li><strong>Applicable law:</strong> These terms are governed by the laws of India. Nothing in these terms limits rights available under applicable law.</li>
+</ul>
+<p>For questions about these terms, <a href="https://www.instagram.com/bio.tyrant" target="_blank" rel="noopener">DM @bio.tyrant on Instagram</a>.</p>
+</div>
+</section>
+
+<section class="wrap" id="refund" aria-labelledby="refund-heading">
+<h2 id="refund-heading"><small>digital downloads</small>Refund and Cancellation Policy</h2>
+<div class="policy">
+<p>BIOTYRANT sells digital study materials. Once a PDF has been delivered or downloaded, the sale is final and we do not accept change-of-mind cancellations or refunds.</p>
+<p>If you receive a corrupted file or a file that does not match your order, contact us within 48 hours of delivery on <a href="https://www.instagram.com/bio.tyrant" target="_blank" rel="noopener">Instagram @bio.tyrant</a>. Include your order reference and describe the problem so we can check it and provide a replacement.</p>
+<p>If delivery has not happened and you need help cancelling, contact us on Instagram with your order reference.</p>
+<p>This policy does not limit any refund or other remedy required under applicable Indian law.</p>
+</div>
+</section>
+
+<footer>
+<div class="footer-links" aria-label="Store policies"><a href="#contact">Contact</a><a href="#terms">Terms and Conditions</a><a href="#refund">Refund and Cancellation Policy</a></div>
+&copy; BIOTYRANT&trade; &middot; Made in India &middot; Made by Ansh Shukla</footer>
 </body>
 </html>
